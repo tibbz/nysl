@@ -47,6 +47,7 @@
     display: flex;
     grid-column: 2/4;
     margin: 0;
+    text-align: center;
 }
 
 .menu li {
@@ -317,30 +318,38 @@ table td, table th{
 .names, .street, .cityzip, .birthgender, .phoneemail, .schools {
     display: flex;
     width: 100%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.gender {
+    margin-left: 2%;
 }
 
 .names div, .names input {
-    width: 50%;
+    width: 80%;
+}
+
+.phoneemail div, .phoneemail input {
+    width: 90%;
 }
 
 .address div, .address input {
     width: 75%;
+    margin-top: 2%;
 }
 
 .cityzip input, .cityzip div {
     width: 56%;
 }
 
-.birthdate input, .birthdate div {
-    width: 50%
-}
-
-.gender input, .gender div {
-    width: 50%;
+.grade {
+    margin-top: 2%;
 }
 
 .parentguardian div, .parentguardian input {
     width: 75%;
+    margin-top: 2%;
 }
 
 .firstclosest, .secondclosest {
