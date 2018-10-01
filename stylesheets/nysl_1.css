@@ -1,0 +1,96 @@
+
+.kids {
+    position: static;
+    margin-top: 30px;
+    width: 1424px;
+    height: 300px;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 40PX;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    right: 200px; 
+    z-index: 10;
+}
+
+h1 {
+    position: absolute;
+    text-align: left;
+    color: black;
+    top: 0px;
+    font-size: 60px;
+    margin-left: 10px;
+} 
+
+li {
+    list-style-type:none;
+    margin-top: 40px;
+}
+
+.upcoming {
+    bottom: 10px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+
+} 
+
+.about {
+    bottom: 10px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.contact {
+    bottom: 10px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+h4 {
+    position: static;
+    text-align: left;
+    margin-left: 300px;
+    
+}
+
+p {
+    position: static;
+    margin-left: 300px;
+    
+}
+
+.box { 
+    position: static;
+    text-align: left;
+    margin-top: -150px;
+     
+}
+
+.date {
+    font-style: italic; 
+}
+
+.thick {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+}

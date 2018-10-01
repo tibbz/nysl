@@ -1,0 +1,101 @@
+
+h1 {
+    position: absolute;
+    text-align: left;
+    color: black;
+    top: 0px;
+    font-size: 60px;
+    margin-left: 10px;
+} 
+
+.girls {
+    position: relative;
+    margin-top: 100px;
+    width: 1424px;
+    height: 300px;
+    z-index: -1;
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px; 
+    top: 50px;
+    }
+
+.upcoming {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    bottom: 109px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.about {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    bottom: 109px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.contact {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    bottom: 109px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    position: relative;
+    left: 1110px;
+    bottom: 480px;
+    float: left;
+    display: block;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    background-color: darkturquoise;
+    border: 1px solid;
+    box-shadow: 3px 3px black ;
+    border-color: black;
+}
+
+li a { 
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    position: relative;
+    text-align: left;
+    bottom: 180px;
+    left: 300px;
+    margin-top: 100px;
+}
+
+.date {
+    font-style: italic; 
+}
+
+.thick {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.active {
+    background-color: green;
+}

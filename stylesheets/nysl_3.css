@@ -1,0 +1,435 @@
+/*website layout */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.northside {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: beige; 
+    background-color: skyblue;
+    font-size: 50px;
+    font-family: Palatino;
+    background-color: #759babc2;
+    border-radius: 20px;
+    border: 5px solid;
+    box-shadow: 3px 3px black ;
+} 
+
+.banner {
+    grid-column: 2/4;
+}
+
+.celebrating {
+    border-radius: 20px;
+    width: 1424px;
+    height: 300px;
+    z-index: -1;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    grid-column: 3;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.popmenu {
+    grid-column: 2/4;
+}
+
+.menu {
+    display: flex;
+    grid-column: 2/4;
+    margin: 0;
+}
+
+.menu li {
+    color: white;
+    margin: 8px;
+    padding: 10px;
+    background-color: skyblue;
+    border: 5px solid;
+    font-family: Palatino; 
+    box-shadow: 3px 3px black ;
+    border-color: black;
+    border-radius: 20px;
+}
+
+#active {
+    background-color: green;
+}
+
+.menu a { 
+    color: white;
+    text-decoration: none;
+}
+
+.pagename {
+    grid-column: 2/5;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.hug {
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    margin:auto;
+    grid-column: 1/2;
+}
+
+.contact {
+    margin: 0;
+    align-items: center;
+    width: 80%;
+    padding: 0, 5px;
+    color: white;
+    font-family: Palatino; 
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px black ;
+    background-color: black;
+    grid-column: 2/4; 
+}
+
+.pagecontent {
+    grid-column: 2/4;
+    background-color: #759babc2;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+/*index*/
+
+/*
+.girls {
+    border-radius: 20px;
+    width: 1424px;
+    height: 300px;
+    z-index: -1;
+}
+*/
+
+.play {
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 5%;
+    grid-column: 1/2;
+}
+
+.upcoming {
+    margin: 0;
+    align-items: center;
+    width: 80%;
+    padding: 0, 5px;
+    color: white;
+    font-family: Palatino; 
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px black ;
+    background-color: black;
+    grid-column: 2/4; 
+}
+
+.date {
+    font-style: italic; 
+    font-weight: bold;
+    font-family: Palatino;
+    color: beige;
+}
+
+.infz {
+    color: beige;
+    font-family: Palatino;
+}
+
+/*game info*/
+
+.kidball {
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 5%;
+    grid-column: 1/2;
+}
+
+.tithea {
+    text-align: left;
+}
+
+.mini {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Palatino;
+}
+
+.fifa {
+    font-style: italic; 
+    font-weight: bold;
+    font-family: Palatino;
+}
+
+.gamerul {
+    text-align: center;
+    left: 200px;
+    font-family: Palatino;
+    color: beige;
+
+}
+
+.grulz {
+    color: beige; 
+    text-align: left;
+    font-family: Palatino; 
+    color: black;
+}
+
+.rulz {
+    color: beige;
+    text-align: center;
+    right: 300px;
+    font-weight: bold;
+    font-family: Palatino;
+    font-size: 40px;
+}
+
+.referee {
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 5%;
+    grid-column: 1/2;
+}
+
+/*about page*/
+
+.boys {
+    border-radius: 20px;
+    width: 1424px;
+    height: 300px;
+    z-index: -1;
+}
+
+.about {
+    margin: 0;
+    align-items: center;
+    width: 80%;
+    padding: 0, 5px;
+    color: white;
+    font-family: Palatino; 
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px black ;
+    background-color: black;
+    grid-column: 2/4; 
+}
+
+.aboutt {
+    font-family: Palatino;
+}
+
+.boom {
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 5%;
+    grid-column: 1/2;
+}
+
+/*registration*/
+
+.registration {
+    margin: 0;
+    align-items: center;
+    width: 80%;
+    padding: 0, 5px;
+    color: white;
+    font-family: Palatino; 
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px black ;
+    background-color: black;
+    grid-column: 2/4; 
+}
+
+.thick {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Palatino;
+    color: beige;
+}
+
+.square {
+    list-style: square;
+}
+
+.marginal li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-family: Palatino;
+    font-size: 40px;  
+}
+
+.curneg {
+    font-style: oblique;
+    font-weight: bold;
+    color: beige;
+    font-family: Palatino;
+}
+
+.negr {
+    font-style: oblique;
+    color: beige;
+    font-family: Palatino;
+}
+
+.negrita {
+    font-weight: bold;
+    font-family: Palatino;
+}
+
+table td, table th{
+  width: 200px;  
+}
+
+.what td, .what th {
+    width: 400px;
+}
+.square {
+    list-style-type: square;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.names, .street, .cityzip, .birthgender, .phoneemail, .schools {
+    display: flex;
+    width: 100%;
+}
+
+.names div, .names input {
+    width: 50%;
+}
+
+.address div, .address input {
+    width: 75%;
+}
+
+.cityzip input, .cityzip div {
+    width: 56%;
+}
+
+.birthdate input, .birthdate div {
+    width: 50%
+}
+
+.gender input, .gender div {
+    width: 50%;
+}
+
+.parentguardian div, .parentguardian input {
+    width: 75%;
+}
+
+.firstclosest, .secondclosest {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.moveit {
+    margin-left: 6%;
+}
+
+.moveit1 {
+    margin-left: 20%;
+}
+
+.size1 {
+    margin-left: 8%;
+}
+
+.size3 {
+    margin-left: 8%;
+}
+
+.firstclosest p, .secondclosest p {
+    margin: 0%;
+}
+
+.clothes1 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around; 
+}
+
+.shirts {
+    width: 50%; 
+}
+
+.shorts {
+    width: 60%;
+}
+
+.uniform {
+    margin-top: 20px;
+    
+}
+
+.sign {
+    display: flex;
+    width: 100%;
+    
+}
+
+.sign div, .sign input {
+    width: 80%
+}
+
+
+.allmaps div {
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 10px;
+    border: 5px solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px black 
+}
+
+.maptext {
+    font-family: Palatino;
+    text-align: center;
+}
+
+.gamelocation {
+    text-align: left;
+    font-size: 20px;
+    font-family: Palatino;
+    font-weight: bold;
+    color: beige;
+}
+
+.pagecontent {
+    font-family: Palatino;
+}
+
+.submitb {
+    display: flex;
+    width: 50%; 
+    align-items: flex-end;
+    margin-left: 0px;
+}
