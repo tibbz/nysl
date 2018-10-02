@@ -410,7 +410,7 @@ table td, table th{
 
 .allmaps div {
     display: flex;
-    width: 100%;
+    width: 101%;
     flex-direction: column;
     justify-content: left;
     margin-bottom: 10px;
