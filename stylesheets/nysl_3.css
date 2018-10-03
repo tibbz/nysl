@@ -410,13 +410,17 @@ table td, table th{
 
 .allmaps div {
     display: flex;
-    width: 101%;
+    width: 100%;
     flex-direction: column;
     justify-content: left;
     margin-bottom: 10px;
     border: 5px solid;
     border-radius: 10px;
     box-shadow: 3px 3px black 
+}
+
+iframe {
+    width: 100%;
 }
 
 .maptext {
